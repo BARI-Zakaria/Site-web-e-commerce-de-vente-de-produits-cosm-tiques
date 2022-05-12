@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-image: url(images/beauté.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+#exampleFormControlInput1 {
+    text-align: center;
+    /* border: none; */
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #fff;
+}
+::placeholder {
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+#inputPassword {
+    text-align: center;
+    /* border: none; */
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #fff;
+}
+.container {
+    margin: 5% 0 0 0;
+}
+#btn {
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: #fff;
+    transition: ease-out 0.25s;
+}
+#btn:hover {
+    transition: ease-out 0.25s;
+    background-color: white;
+    color: black;
+}
+@media(max-width:414){
+
+
+}
+ 
+#recaptcha {
+    margin: 5% 0 0 35%;
+}
+#remem {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.form-check {
+    margin: 2% 0 0 0;
+}
+.form-check a {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    float: right;
+    transition: ease-out 0.25s;
+
+}
+.form-check a:hover {
+    text-decoration: none;
+    transition: ease-out 0.25s;
+    color: black;
+}
+p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 3% 0 0 0;
+}
+p a {
+    color: white;
+    transition: ease-in-out 0.25s;
+}
+p a:hover {
+    text-decoration: none;
+    transition: ease-in-out 0.25s;
+    color: black;
+}
+.error {
+    text-align: center;
+    color: red;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+}
+
+
